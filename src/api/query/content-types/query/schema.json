@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "queries",
+  "info": {
+    "singularName": "query",
+    "pluralName": "queries",
+    "displayName": "Query"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "full_name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "contact_number": {
+      "type": "string",
+      "required": true
+    },
+    "message": {
+      "type": "text"
+    }
+  }
+}
